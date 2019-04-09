@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="facebook" unicode="&#xf09a;" d="M535 843v-147h-87q-48 0-65-20t-17-60v-106h164l-22-165h-142v-424h-171v424h-142v165h142v122q0 104 58 161t155 57q82 0 127-7z" horiz-adv-x="571.4" />
+
+<glyph glyph-name="linkedin" unicode="&#xf0e1;" d="M195 501v-553h-184v553h184z m12 171q0-41-29-68t-75-27h-1q-46 0-74 27t-28 68q0 41 29 68t75 27 74-27 29-68z m650-407v-317h-183v296q0 59-23 92t-71 33q-35 0-58-19t-36-48q-6-17-6-45v-309h-184q1 223 1 361t0 165l-1 27h184v-80h-1q11 18 23 31t31 29 49 24 64 9q95 0 153-63t58-186z" horiz-adv-x="857.1" />
+
+<glyph glyph-name="git" unicode="&#xf1d3;" d="M332 5q0 56-92 56-88 0-88-58 0-57 96-57 84 0 84 59z m-33 422q0 34-17 56t-49 23q-69 0-69-81 0-75 69-75 66 0 66 77z m150 180v-112q-20-7-44-13 9-24 9-47 0-70-41-120t-110-63q-22-5-33-15t-11-33q0-17 13-28t32-18 44-12 48-15 44-21 32-35 13-55q0-170-203-170-38 0-72 7t-65 23-49 46-18 71q0 92 102 125v3q-38 22-38 70 0 61 35 76v3q-40 13-66 60t-27 93q0 77 53 129t131 51q54 0 100-26 54 0 121 26z m178-491h-124q2 25 2 74v340q0 53-2 72h124q-3-19-3-69v-343q0-49 3-74z m335 124v-110q-40-22-97-22-35 0-60 12t-39 27-22 44-10 51-2 58v196h1v2q-4 0-11 0t-10 1q-12 0-33-3v106h54v42q0 30-4 50h127q-3-23-3-92h95v-106q-8 0-24 1t-24 1h-47v-204q0-73 48-73 34 0 61 19z m-321 528q0-32-22-57t-54-24q-32 0-54 24t-23 57q0 33 22 57t55 25q33 0 54-25t22-57z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

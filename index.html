@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Bartosz Hejke - portfolio</title>
+    <meta name="description" content="Programer portfolio">
+    <meta name="keywords" content="programer, programming, web, HTML, CSS, JavaScript, JS, jQuery, Bootstrap, Java, C++">
+    <meta name="author" content="Bartosz Hejke">
+    <meta http-equiv="X-Ua-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script type="text/javascript">
+    $(function($){
+        $.scrollTo(0);
+        $('#link1').click(function(){
+            $.scrollTo($('body'),500);
+        });
+        $('#link2').click(function(){
+            $.scrollTo($('#about'),500);
+        });
+        $('.scrollUp').click(function(){
+            $.scrollTo($('body'),600);
+        });
+    });
+        // pokaz strzalke
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 300) {
+                $('.scrollUp').fadeIn();
+            } else {
+                $('.scrollUp').fadeOut();
+            }
+        });
+
+    </script>
+
+  </head>
+  <body>
+    <a href="#" class="scrollUp"></a>
+    <header class="bg">
+      <nav class="navbar fixed-top navbar-dark nav-color navbar-expand-md">
+        <a href="#" class="navbar-brand "><img src="images/BH.svg" class="logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+  		      <span class="navbar-toggler-icon"></span>
+  		</button>
+
+        <div class="collapse navbar-collapse" id="mainmenu">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a id="link1" class="nav-link" href="#"> STRONA GŁÓWNA </a>
+            </li>
+            <li class="nav-item">
+              <a id="link2" class="nav-link disabled" href="#"> O MNIE </a>
+            </li>
+            <li class="nav-item">
+              <a id="link3" class="nav-link" href="#"> UMIEJĘTNOŚCI </a>
+            </li>
+            <li class="nav-item">
+              <a id="link3" class="nav-link" href="#"> PROJEKTY </a>
+            </li>
+            <li class="nav-item">
+              <a id="link4" class="nav-link" href="#"> KONTAKT </a>
+            </li>
+          </ul>
+          <div class="social">
+              <div class="icons">
+                  <a class="social-links" target="_blank" href="https://www.facebook.com/bartek.hejke"><i class="icon-facebook"></i></a>
+              </div>
+              <div class="icons">
+                  <a target="_blank" href="https://www.linkedin.com/in/bartosz-hejke-45a477144/"><i class="icon-linkedin"></i></a>
+              </div>
+              <div class="icons">
+                  <a target="_blank" href="https://github.com/bartekhejke"><i class="icon-git"></i></a>
+              </div>
+              <div style="clear: both;"></div>
+          </div>
+        </div>
+      </nav>
+
+      <h1>
+        Cześć, jestem Bartek, <br>
+        Ta strona to początek mojej przygody z Front End.
+      </h1>
+      <p> Front End Developer / HTML / CSS / JavaScript </p>
+    </header>
+
+    <main>
+        <article id="about">
+            <section class="section-about">
+                <div class="about-image">
+                    <div id="boxDiv">
+                        <div id="front"><br>VCR Games</div>
+                        <div id="back"><br><br>Podróże</div>
+                        <div id="left">Programowanie</div>
+                        <div id="right"><br>Chillout :D</div>
+                        <div id="top">Fotografia ;)</div>
+                        <div id="bottom"><br><br><br><br><br>Bottom</div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-about">
+                <div class="about-text">
+                    <h1>O mnie</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere, mauris sit amet mattis vestibulum, tellus erat iaculis ipsum, at dictum velit diam vitae sapien. Morbi ac sollicitudin ante, quis malesuada nibh. Nulla facilisi. Fusce at elementum urna, et convallis nulla. Etiam pulvinar dui ut metus condimentum bibendum. Nunc lacinia nulla erat, ac vehicula ligula vehicula eu. Integer efficitur posuere lorem in aliquet. Ut tincidunt blandit magna et sodales. Nam tempor quam ultricies, interdum justo sit amet, gravida lectus. Suspendisse porta elit quis elit pretium, a rutrum odio blandit. Donec ligula nisi, euismod vel est sit amet, efficitur egestas metus. Mauris sit amet feugiat ligula, id molestie quam. Mauris vitae facilisis lacus. Donec ultrices velit ut ligula commodo, et aliquam lectus dapibus. Nulla suscipit, nunc eget aliquam blandit, velit nisi suscipit mi, pretium pretium lorem ex et massa.
+                        <br/><br/>
+                        Donec cursus risus quis aliquet efficitur. Vestibulum sed fermentum lorem. Phasellus in consequat enim, vel dignissim elit. Maecenas a turpis dui. Integer et nunc sit amet sem porttitor eleifend. Sed eget justo quis felis auctor fringilla ac a dolor. Aliquam a arcu metus. Suspendisse vel euismod augue. Sed ac mi sit amet sapien dignissim commodo. Morbi bibendum pulvinar rutrum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id eleifend nisl. Donec eget nisi mattis, vestibulum libero id, faucibus nibh.
+                    </p>
+                </div>
+            </section>
+        </article>
+        <article class="">
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+        </article>
+
+    </main>
+
+
+    <script type="text/javascript">
+        $(document).on('click', 'ul li', function(){
+          $(this).addClass('active').siblings().removeClass('active')
+        })
+    </script>
+
+
+  </body>
+</html>
