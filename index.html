@@ -30,6 +30,12 @@
             $('#link2').click(function(){
                 $.scrollTo($('#about'),500);
             });
+            $('#link3').click(function(){
+                $.scrollTo($('#skills'),500);
+            });
+            $('#link4').click(function(){
+                $.scrollTo($('#about'),500);
+            });
             $('.scrollUp').click(function(){
                 $.scrollTo($('body'),600);
                 $(document.querySelector("ul li")).addClass('active').siblings().removeClass('active')
@@ -135,21 +141,60 @@
             </div>
         </article>
 
-        <article class="">
-            <section>
+        <article class="container-fluid padding" id="skills">
+            <div class="row">
+                <section class="column col-md-4">
+                    <div class="content">
+                        <h1>1</h1>
+                        <div class="box bg-success">
+                            <h2>Szkoła</h2>
+                            <p>
+                                03/2017 – 10/2018   Politechnika Gdańska
+                                                    Profil / Specjalizacja: Komputerowe Systemy Elektroniczne / Systemy Wbudowane
+                                                    Stopień: II magisterskie
 
-            </section>
-            <section>
+                                10/2013 – 10/2018   Politechnika Gdańska
+                                                    Kierunek: elektronika i telekomunikacja
+                                                    Stopień: I inżynierskie
 
-            </section>
+                                09/2010 - 06/2013	Liceum Ogólnokształcące im. Filomatów Ziemii Michałowskiej
+                                                    Profil: matematyczno-informatyczny
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="column col-md-4">
+                    <div class="content">
+                        <h1>2</h1>
+                        <div class="box bg-danger">
+                            <h2>Technologie</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat magna hendrerit facilisis consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec quis mauris neque. Aliquam laoreet dignissim velit a ullamcorper. Donec ac quam et ex vulputate rhoncus. Nunc tincidunt vitae metus a finibus. Nunc pretium eget massa ut porttitor.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="column col-md-4">
+                    <div class="content">
+                        <h1>3</h1>
+                        <div class="box bg-info">
+                            <h2>Narzędzia</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat magna hendrerit facilisis consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec quis mauris neque. Aliquam laoreet dignissim velit a ullamcorper. Donec ac quam et ex vulputate rhoncus. Nunc tincidunt vitae metus a finibus. Nunc pretium eget massa ut porttitor.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </article>
+
 
     </main>
 
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript">
+            $(document).on('mouseover', '#skills .row .column', function(){
+                $(this).addClass('active').siblings().removeClass('active');
+            })
             ScrollOut({
-                threshold: .8
+                threshold: 0.1
             });
 
     </script>
