@@ -124,6 +124,7 @@ main {
         min-height: 100vh;
         color: #FFF;
         display: block;
+        //border: 2px solid white;
         &#about{
             .row {
                 padding: 100px 20px 20px 20px;
@@ -253,6 +254,7 @@ main {
                     }
                     .box {
                         color: #FFF;
+                        height: 350px;
                         box-sizing: border-box;
                         padding: 40px;
                         background: rgba(255, 255, 255, 1);
@@ -261,13 +263,19 @@ main {
                         opacity: 0;
                         h2 {
                             margin: 0;
-                            padding: 0;
+                            padding: 5px;
                             font-size: 30px;
                             color: #000;
                         }
-                        p {
-                            font-size: 16px;
+                        ul {
+                            list-style: none;
+                            padding: 0px;
+                            margin: 0px;
                             color: #000;
+                            font-size: 16px;
+                            span {
+                                font-weight: bold;
+                            }
                         }
                     }
                 }
@@ -276,6 +284,27 @@ main {
                 }
                 &.column.active .content h1 {
                     opacity: 0;
+                }
+            }
+        }
+        &#projects {
+            text-align: center;
+            padding: 0 20px;
+            margin: 0;
+            .row {
+                //border: 2px solid white;
+                .postcard {
+                    padding: 0px;
+                    margin: 0;
+                    img {
+                        //padding: 0;
+                        //margin: 0;
+                        max-width: 100%;
+                        height: auto;
+                    }
+                    .project1 {
+
+                    }
                 }
             }
         }
